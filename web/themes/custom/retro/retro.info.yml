@@ -1,0 +1,7 @@
+name: Retro
+type: theme
+description: 'My Awesome theme'
+package: Other
+core_version_requirement: ^8 || ^9
+
+base theme: bartik

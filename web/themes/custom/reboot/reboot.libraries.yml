@@ -1,0 +1,12 @@
+bootstrap:
+  css:
+    theme:
+      css/bootstrap.css: { }
+
+  js:
+    js/bootstrap.bundle.js: { }
+
+global:
+  css:
+    theme:
+      css/global.css: { }
