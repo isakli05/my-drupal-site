@@ -8,18 +8,18 @@ base theme: classy
 
 regions:
   header: 'Header'
-  primary menu: 'Primary_menu'
-  secondary menu: 'Secondary_menu'
-  page top: 'Page_top'
-  page bottom: 'Page_bottom'
+  primary menu: 'Primary menu'
+  secondary menu: 'Secondary menu'
+  page top: 'Page top'
+  page bottom: 'Page bottom'
   highlighted: 'Highlighted'
-  featured top: 'Featured_top'
+  featured top: 'Featured top'
   breadcrumb: 'Breadcrumb'
   content: 'Content'
-  sidebar first: 'Sidebar_first'
-  sidebar second: 'Sidebar_second'
-  footer first: 'Footer_first'
-  footer second: 'Footer_second'
+  sidebar first: 'Sidebar first'
+  sidebar second: 'Sidebar second'
+  footer first: 'Footer first'
+  footer second: 'Footer second'
 
 
 libraries:

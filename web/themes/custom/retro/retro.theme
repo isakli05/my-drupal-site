@@ -47,7 +47,9 @@ if ($path == '/node'){
  * Implements hook_preprocess_page() for page.html.twig.
  */
 function retro_preprocess_page(array &$variables) {
-
+  if ($variables['is_front'] == TRUE) {
+    $variables['#attached']['library'][] = 'retro/retro';
+  }
 }
 
 /**
