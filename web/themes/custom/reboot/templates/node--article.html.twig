@@ -62,7 +62,7 @@
  *   current user is a logged-in member.
  * - is_admin: Flag for admin user status. Will be true when the current user
  *   is an administrator.
- *
+ * - today: Today's date and time.
  * @see template_preprocess_node()
  *
  * @todo Remove the id attribute (or make it a class), because if that gets
@@ -70,7 +70,7 @@
  *   in different view modes.
  */
 #}
-{# {{ dump(content|keys) }} #}
+{# <pre> {{ dump(_context|keys) }}</pre> #}
 
 {%
   set classes = [
@@ -119,5 +119,5 @@
 	<div{{content_attributes.addClass('node__content','row')}}>
 		{{ content|without('field_image') }}
 	</div>
-
+{% trans %}The current time is: {{ today }}{% endtrans %}
 </article>

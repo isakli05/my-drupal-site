@@ -15,6 +15,11 @@
   {{ attach_library('retro/retro') }}
 {% endif %}
 
+{% if node.id == 2 %}
+	{{ attach_library('retro/test') }}
+{% endif %}
+
+
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
   <header>

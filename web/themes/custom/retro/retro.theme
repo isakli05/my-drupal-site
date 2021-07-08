@@ -41,7 +41,7 @@ if ($path == '/node'){
     ],
   ];
   $page['#attached']['html_head'][] = [$ie_edge, 'ie_edge'];*/
-}
+} 
 
 /**
  * Implements hook_preprocess_page() for page.html.twig.
